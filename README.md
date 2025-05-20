@@ -1,5 +1,9 @@
 ## Spectral-Spatial Self-Supervised Learning for Few-Shot Hyperspectral Image Classification
-This code is the demonstration for the paper 'Spectral-Spatial Self-Supervised Learning for Few-Shot Hyperspectral Image Classification'. This is the author's first time open-sourcing code, so please feel free to point out any errors or provide suggestions.
+This repository contains the official PyTorch implementation for the paper:
+**Spectral-Spatial Self-Supervised Learning for Few-Shot Hyperspectral Image Classification**
+Wenchen Chen, Yanmei Zhang, Zhongwei Xiao, Jianping Chu, Xingbo Wang
+[[arXiv paper]](https://arxiv.org/abs/2505.12482).
+This is the author's first time open-sourcing code, so please feel free to point out any errors or provide suggestions.
 
 If possible, please give the author a star.
 
@@ -43,6 +47,6 @@ datasets
 ## Usage:
 Take FSCF-SSL method : 
 1. Download the required data set and move to folder`./datasets`.
-2. Download the VGG pre-training weight.
+2. Download the VGG pre-training weight, put in root directory.
 3. Run chikusei_imdb_128.py to generate chikusei spectrum vector data.
 4. Run S4L-FSC.py,
