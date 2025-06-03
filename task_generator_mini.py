@@ -25,16 +25,17 @@ class Rotate(object):
         return x
 
 def mini_imagenet_folders():
-    train_folder = os.path.join('datasets', 'miniImagenet', 'train')
-    test_folder = os.path.join('datasets', 'miniImagenet', 'test')
-    
-    # 检查路径是否存在
+    train_folder = '/kaggle/input/datasets1/mini-imagenet/train'  # Correct path
+    test_folder = '/kaggle/input/datasets1/mini-imagenet/test'    # Correct path
+
+    # Check if the paths exist
     if not os.path.exists(train_folder):
         raise ValueError(f"训练数据集路径不存在: {train_folder}")
-    if not os.path.exists(test_folder):    
+    if not os.path.exists(test_folder):
         raise ValueError(f"测试数据集路径不存在: {test_folder}")
-        
+
     return train_folder, test_folder
+
 
 class MiniImagenetTask(object):
     def __init__(self, character_folders, num_classes, train_num, test_num):
