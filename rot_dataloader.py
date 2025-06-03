@@ -19,7 +19,7 @@ from pdb import set_trace as breakpoint
 
 # Set the paths of the datasets here.
 _CIFAR_DATASET_DIR = './datasets/CIFAR'
-_IMAGENET_DATASET_DIR = os.path.join('datasets', 'miniImagenet')
+_IMAGENET_DATASET_DIR = '/kaggle/input/datasets1/mini-imagenet'
 _PLACES205_DATASET_DIR = './datasets/Places205'
 
 
